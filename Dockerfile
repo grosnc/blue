@@ -8,7 +8,7 @@ WORKDIR /app/grosnc
 MAINTAINER Junho Yoon <yoonjho79@gmail.com>
 
 # get source from git repos
-git clone https://github.com/grosnc/blue ./
+RUN git clone https://github.com/grosnc/blue ./
 
 #install dependencies lib
 RUN npm install
